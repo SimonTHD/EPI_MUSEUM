@@ -47,19 +47,35 @@ Attention la mémoire de l'Hololens étant assez restreinte, il ne faut pas ajou
 
 # Guide de Démarrage Rapide pour Unreal Engine
 
-Ce guide vous aidera à vous familiariser rapidement avec Unreal Engine (UE), l'un des moteurs de jeu les plus puissants et polyvalents disponibles aujourd'hui. Nous aborderons les concepts fondamentaux tels que Blueprint, GameMode, XR, et d'autres aspects clés pour vous permettre de démarrer votre projet de développement de jeu.
+Ce guide vous aidera à vous familiariser rapidement avec Unreal Engine (UE), l'un des moteurs de jeu les plus puissants et polyvalents disponibles aujourd'hui. Nous aborderons les concepts fondamentaux tels que Blueprint, GameMode, XR, ainsi que l'intelligence artificielle (IA) avec Behavior Trees (BTT), Blackboard (BB) et les Behaviour Trees (BT), des éléments essentiels pour créer des jeux interactifs et immersifs.
 
 ## Qu'est-ce qu'Unreal Engine ?
 
 Unreal Engine est un moteur de jeu développé par Epic Games, utilisé pour créer des jeux vidéo, des simulations, des visualisations architecturales, et bien plus encore. Il offre des outils de développement avancés, une grande flexibilité et une qualité visuelle exceptionnelle.
 
-## Blueprint
+## Blueprint (BP)
 
 Blueprint est le système de scripting visuel d'Unreal Engine. Il permet aux développeurs de créer des logiques de jeu, des interactions et des comportements sans avoir à écrire de code traditionnel. Avec son interface intuitive de type glisser-déposer, Blueprint rend le développement de jeux plus accessible aux artistes et aux designers.
 
-## GameMode
+## GameMode (GM)
 
 Le GameMode définit les règles de base et le comportement du jeu. Il contrôle des éléments tels que la façon dont les joueurs interagissent avec le monde, la gestion des scores, la détection des collisions, et bien plus encore. En modifiant le GameMode, vous pouvez personnaliser complètement l'expérience de jeu selon vos besoins spécifiques.
+
+## Intelligence Artificielle (AI)
+
+L'IA est essentielle pour créer des jeux interactifs et immersifs. Unreal Engine propose plusieurs outils pour implémenter des comportements d'IA complexes, notamment :
+
+## Behaviour Trees (BT)
+
+Les Behaviour Trees sont une technique de modélisation des comportements utilisée pour définir le comportement des entités dans un jeu. Ils offrent une approche visuelle et hiérarchique pour décrire les actions que les personnages peuvent effectuer et les conditions dans lesquelles ces actions doivent être déclenchées.
+
+## Behavior Tree Tasks (BTT)
+
+Les Behavior Tree Tasks sont des actions individuelles ou des tâches qui peuvent être exécutées par les entités contrôlées par l'IA dans un Behaviour Tree. Ils peuvent inclure des actions telles que se déplacer vers une position, attaquer un ennemi, ou effectuer une animation spécifique.
+
+## Blackboard (BB)
+
+Le Blackboard est une structure de données utilisée pour stocker des informations et des états pertinents pour les entités contrôlées par l'IA. Il permet aux Behavior Trees d'accéder et de mettre à jour ces informations en temps réel, ce qui facilite la prise de décision de l'IA.
 
 ## XR (Réalité Étendue)
 
@@ -68,10 +84,17 @@ Unreal Engine prend en charge la réalité étendue (XR), qui englobe la réalit
 ## Comment Commencer
 
 Installation d'Unreal Engine : Téléchargez et installez Unreal Engine à partir du site officiel d'Epic Games.
+
 Créez un Projet : Lancez l'Unreal Engine Editor et créez un nouveau projet en choisissant un modèle prédéfini ou en démarrant à partir de zéro.
+
 Explorez l'Interface Utilisateur : Familiarisez-vous avec l'interface utilisateur de l'Unreal Engine Editor, y compris les vues de la scène, les panneaux d'outils, et les menus.
+
 Apprenez les Bases de Blueprint : Explorez les tutoriels et la documentation sur Blueprint pour comprendre comment créer des logiques de jeu à l'aide de ce système de scripting visuel.
+
 Expérimentez avec le GameMode : Modifiez le GameMode par défaut pour comprendre son impact sur le gameplay et apprenez à créer votre propre GameMode personnalisé.
+
 Plongez dans XR : Si vous êtes intéressé par le développement VR ou AR, plongez dans la documentation spécifique à XR pour apprendre à créer des expériences immersives.
 
 Ce guide constitue un point de départ pour explorer les fonctionnalités puissantes d'Unreal Engine. Continuez à apprendre, à expérimenter et à créer pour donner vie à vos idées de jeu !
+
+![Pedro](https://tenor.com/view/fine-this-is-fine-gif-20102174)

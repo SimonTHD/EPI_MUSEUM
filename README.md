@@ -26,3 +26,52 @@ Les contributions sont les bienvenues. Veuillez ouvrir une issue pour discuter d
 
 ## Licence
 N/A
+
+
+## Fonctionnement du projet
+
+Lorsque vous ouvrez le projet, vous allez directement arriver sur la map du musée. Les oeuvres sont disposés de manière a correspondre au mapping original du musée. 
+
+Il est possible d'afficher une widget pour afficher des oeuvre d'arts et passant sa main gauche devant ses yeux et en la maintenant ainsi, avec la main droite appuyer sur le bouton "Spawn".
+
+Il est aussi possible d'ouvrir un menu global, en appelant celui ci via reconnaissance vocale en disant simplement "Museum".
+Dans celui ci différents outils sont disponibles.
+
+Il est aussi possible d'ajouter ou de supprimer des anchors, ceux ci permettent de mapper la musée et de définir la localisation exacte des oeuvres.
+
+Une IA a été ajoutée, celle ci fera la visite du musée. Il est possible de lui rajouter des étapes, en ajoutant au "MuseumPoint_BP" les points nécessaires.
+
+Attention la mémoire de l'Hololens étant assez restreinte, il ne faut pas ajouter trop d'assets ou avoir un projet trop gros, sinon celui ci sera très compliqué à gérer.
+
+
+
+# Guide de Démarrage Rapide pour Unreal Engine
+
+Ce guide vous aidera à vous familiariser rapidement avec Unreal Engine (UE), l'un des moteurs de jeu les plus puissants et polyvalents disponibles aujourd'hui. Nous aborderons les concepts fondamentaux tels que Blueprint, GameMode, XR, et d'autres aspects clés pour vous permettre de démarrer votre projet de développement de jeu.
+
+## Qu'est-ce qu'Unreal Engine ?
+
+Unreal Engine est un moteur de jeu développé par Epic Games, utilisé pour créer des jeux vidéo, des simulations, des visualisations architecturales, et bien plus encore. Il offre des outils de développement avancés, une grande flexibilité et une qualité visuelle exceptionnelle.
+
+## Blueprint
+
+Blueprint est le système de scripting visuel d'Unreal Engine. Il permet aux développeurs de créer des logiques de jeu, des interactions et des comportements sans avoir à écrire de code traditionnel. Avec son interface intuitive de type glisser-déposer, Blueprint rend le développement de jeux plus accessible aux artistes et aux designers.
+
+## GameMode
+
+Le GameMode définit les règles de base et le comportement du jeu. Il contrôle des éléments tels que la façon dont les joueurs interagissent avec le monde, la gestion des scores, la détection des collisions, et bien plus encore. En modifiant le GameMode, vous pouvez personnaliser complètement l'expérience de jeu selon vos besoins spécifiques.
+
+## XR (Réalité Étendue)
+
+Unreal Engine prend en charge la réalité étendue (XR), qui englobe la réalité virtuelle (VR), la réalité augmentée (AR) et d'autres formes d'expériences immersives. Avec les outils et les fonctionnalités intégrés d'Unreal Engine, vous pouvez créer des applications et des expériences XR de haute qualité pour une variété de plateformes, des casques VR aux appareils mobiles.
+
+## Comment Commencer
+
+Installation d'Unreal Engine : Téléchargez et installez Unreal Engine à partir du site officiel d'Epic Games.
+Créez un Projet : Lancez l'Unreal Engine Editor et créez un nouveau projet en choisissant un modèle prédéfini ou en démarrant à partir de zéro.
+Explorez l'Interface Utilisateur : Familiarisez-vous avec l'interface utilisateur de l'Unreal Engine Editor, y compris les vues de la scène, les panneaux d'outils, et les menus.
+Apprenez les Bases de Blueprint : Explorez les tutoriels et la documentation sur Blueprint pour comprendre comment créer des logiques de jeu à l'aide de ce système de scripting visuel.
+Expérimentez avec le GameMode : Modifiez le GameMode par défaut pour comprendre son impact sur le gameplay et apprenez à créer votre propre GameMode personnalisé.
+Plongez dans XR : Si vous êtes intéressé par le développement VR ou AR, plongez dans la documentation spécifique à XR pour apprendre à créer des expériences immersives.
+
+Ce guide constitue un point de départ pour explorer les fonctionnalités puissantes d'Unreal Engine. Continuez à apprendre, à expérimenter et à créer pour donner vie à vos idées de jeu !

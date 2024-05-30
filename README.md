@@ -97,3 +97,55 @@ Plongez dans XR : Si vous êtes intéressé par le développement VR ou AR, plon
 
 Ce guide constitue un point de départ pour explorer les fonctionnalités puissantes d'Unreal Engine. Continuez à apprendre, à expérimenter et à créer pour donner vie à vos idées de jeu !
 
+# Quotations
+
+1- 4.4M
+2- 5M
+3- 2.2M
+4- 3.45M
+5- 3.35M + 1.7M
+6- 5.5M
+7- 6.4M
+8- 7.3M
+9- 2.7M / Phénix
+10- 2.3M / Disque Bi
+11- 1.8M / Monstre gardien
+12- 1.83M / Dame à Genoux
+13- 3M / Cloche Bozhong
+14- 9M
+15- 2.3M
+16- 7.2M
+17- 6.5M
+18- 6.5M
+19- 4.2M
+20- 2M / Déesse à l'arbre
+21- 0.9M
+22- 3M / Antropomorphe
+23- 1.325M / Poignard
+24- 1.322M / Pieds de trone
+25- 1.631M
+26- 9M
+27- 2.3M
+28- 7.15M
+29- 6.4M
+30- 6.45M
+31- 0.8M
+32- 1.64M / Verseuse
+33- 0.86M
+34- 2.82M / Samurai
+35- Ito Kako
+36- 9M
+37- 2.27M
+38- 0.836M
+39- 2.7M / Tambour
+40- 7.28M
+41- 6.423M
+42- 6.435M
+43- Balustre
+44- 2.266M / Chien Lion
+45- 1.359M / Linto Sculpté
+46 0.58M / Haniwa
+47- Ossuaire
+48- 3.6M Paire de daims
+
+![plot](./Plan_museum.jpg)

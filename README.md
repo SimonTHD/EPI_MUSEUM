@@ -1,101 +1,109 @@
-# Projet XR pour le Musée des Arts Asiatiques de Nice
+# XR Project for the Musée des Arts Asiatiques de Nice
 
 ## Description
 
-Ce projet est une expérience de réalité étendue (XR) conçue pour le Musée des Arts Asiatiques de Nice. Il vise à enrichir l'expérience des visiteurs en leur permettant d'interagir avec les œuvres d'art de manière immersive.
+The **XR Project** is an immersive extended reality experience developed for the Musée des Arts Asiatiques de Nice. This project aims to enrich the visitor experience by enabling interactive engagement with the artworks in an immersive manner.
 
-## Fonctionnalités
+## Features
 
-- **Visite virtuelle** : Les utilisateurs peuvent se promener virtuellement dans le musée et voir les œuvres d'art sous différents angles.
-- **Informations interactives** : En cliquant sur une œuvre d'art, les utilisateurs peuvent obtenir des informations détaillées sur celle-ci.
-- **Réalité augmentée** : Les utilisateurs peuvent voir certaines œuvres d'art en réalité augmentée, ce qui leur permet de les explorer en détail.
+- **Virtual Tour:** Users can virtually walk through the museum and view artworks from various angles.
+- **Interactive Information:** By clicking on an artwork, users can access detailed information about it.
+- **Augmented Reality:** Users can see selected artworks in augmented reality, allowing them to explore in-depth details.
 
 ## Installation
 
-1. Clonez ce dépôt sur votre machine locale.
-2. Installez Unreal Engine 4.26 avec l'option Hololens
-3. Lancez l'application (Unreal Engine) puis commencez la simulation
+To set up the XR Project on your local machine, follow these steps:
 
-## Utilisation
+1. **Clone the Repository:**  
+   \`\`\`bash
+   git clone <repository-url>
+   \`\`\`
 
-Après avoir lancé l'application, suivez les instructions à l'écran pour naviguer dans le musée et interagir avec les œuvres d'art.
+2. **Install Unreal Engine 4.26** with the Hololens option.
+
+3. **Launch the Application:**  
+   Open the project in Unreal Engine and start the simulation.
+
+## Usage
+
+Once the application is running, follow the on-screen instructions to navigate the museum and interact with the artworks.
 
 ## Contribution
 
-Les contributions sont les bienvenues. Veuillez ouvrir une issue pour discuter de ce que vous aimeriez changer ou envoyer une pull request.
+Contributions are welcome! Please open an issue to discuss any changes you would like to make or submit a pull request.
 
-## Licence
+## License
+
 N/A
 
+## How the Project Works
 
-## Fonctionnement du projet
+Upon opening the project, you will arrive directly at the museum map. The artworks are arranged to match the original layout of the museum.
 
-Lorsque vous ouvrez le projet, vous allez directement arriver sur la map du musée. Les oeuvres sont disposés de manière a correspondre au mapping original du musée. 
+- **Displaying Widgets:** You can display a widget to view artworks by holding your left hand in front of your eyes and pressing the "Spawn" button with your right hand.
 
-Il est possible d'afficher une widget pour afficher des oeuvre d'arts et passant sa main gauche devant ses yeux et en la maintenant ainsi, avec la main droite appuyer sur le bouton "Spawn".
+- **Voice-Activated Menu:** You can open a global menu via voice recognition by simply saying "Museum." This menu provides access to various tools.
 
-Il est aussi possible d'ouvrir un menu global, en appelant celui ci via reconnaissance vocale en disant simplement "Museum".
-Dans celui ci différents outils sont disponibles.
+- **Anchors:** You can add or remove anchors to map the museum and define the exact location of artworks.
 
-Il est aussi possible d'ajouter ou de supprimer des anchors, ceux ci permettent de mapper la musée et de définir la localisation exacte des oeuvres.
+- **AI Guide:** An AI guide is available to tour the museum. You can add steps by placing necessary points in the "MuseumPoint_BP."
 
-Une IA a été ajoutée, celle ci fera la visite du musée. Il est possible de lui rajouter des étapes, en ajoutant au "MuseumPoint_BP" les points nécessaires.
+> **Note:** Due to the limited memory of the Hololens, avoid adding too many assets or creating overly large projects, as this can complicate management.
 
-Attention la mémoire de l'Hololens étant assez restreinte, il ne faut pas ajouter trop d'assets ou avoir un projet trop gros, sinon celui ci sera très compliqué à gérer.
+## Quick Start Guide for Unreal Engine
 
+This guide will help you quickly get acquainted with Unreal Engine (UE), one of the most powerful and versatile game engines available today. We will cover fundamental concepts such as Blueprint, GameMode, XR, and Artificial Intelligence (AI) using Behavior Trees (BT), Blackboard (BB), and Behavior Tree Tasks (BTT), essential elements for creating interactive and immersive games.
 
+### What is Unreal Engine?
 
-# Guide de Démarrage Rapide pour Unreal Engine
+Unreal Engine is a game engine developed by Epic Games, used to create video games, simulations, architectural visualizations, and more. It offers advanced development tools, great flexibility, and outstanding visual quality.
 
-Ce guide vous aidera à vous familiariser rapidement avec Unreal Engine (UE), l'un des moteurs de jeu les plus puissants et polyvalents disponibles aujourd'hui. Nous aborderons les concepts fondamentaux tels que Blueprint, GameMode, XR, ainsi que l'intelligence artificielle (IA) avec Behavior Trees (BTT), Blackboard (BB) et les Behaviour Trees (BT), des éléments essentiels pour créer des jeux interactifs et immersifs.
+### Blueprint (BP)
 
-## Qu'est-ce qu'Unreal Engine ?
+Blueprint is Unreal Engine's visual scripting system. It allows developers to create game logic, interactions, and behaviors without writing traditional code. With its intuitive drag-and-drop interface, Blueprint makes game development more accessible to artists and designers.
 
-Unreal Engine est un moteur de jeu développé par Epic Games, utilisé pour créer des jeux vidéo, des simulations, des visualisations architecturales, et bien plus encore. Il offre des outils de développement avancés, une grande flexibilité et une qualité visuelle exceptionnelle.
+### GameMode (GM)
 
-## Blueprint (BP)
+GameMode defines the basic rules and behavior of the game. It controls elements such as player interaction, score management, collision detection, and more. By modifying GameMode, you can fully customize the gameplay experience to meet your specific needs.
 
-Blueprint est le système de scripting visuel d'Unreal Engine. Il permet aux développeurs de créer des logiques de jeu, des interactions et des comportements sans avoir à écrire de code traditionnel. Avec son interface intuitive de type glisser-déposer, Blueprint rend le développement de jeux plus accessible aux artistes et aux designers.
+### Artificial Intelligence (AI)
 
-## GameMode (GM)
+AI is crucial for creating interactive and immersive games. Unreal Engine offers several tools for implementing complex AI behaviors, including:
 
-Le GameMode définit les règles de base et le comportement du jeu. Il contrôle des éléments tels que la façon dont les joueurs interagissent avec le monde, la gestion des scores, la détection des collisions, et bien plus encore. En modifiant le GameMode, vous pouvez personnaliser complètement l'expérience de jeu selon vos besoins spécifiques.
+- **Behavior Trees (BT):**  
+  Behavior Trees are a modeling technique used to define the behavior of entities in a game. They provide a visual and hierarchical approach to describe actions characters can perform and the conditions that trigger those actions.
 
-## Intelligence Artificielle (AI)
+- **Behavior Tree Tasks (BTT):**  
+  These are individual actions or tasks executed by AI-controlled entities within a Behavior Tree. Tasks can include moving to a position, attacking an enemy, or performing a specific animation.
 
-L'IA est essentielle pour créer des jeux interactifs et immersifs. Unreal Engine propose plusieurs outils pour implémenter des comportements d'IA complexes, notamment :
+- **Blackboard (BB):**  
+  Blackboard is a data structure used to store relevant information and states for AI-controlled entities. It allows Behavior Trees to access and update this information in real-time, facilitating AI decision-making.
 
-## Behaviour Trees (BT)
+### XR (Extended Reality)
 
-Les Behaviour Trees sont une technique de modélisation des comportements utilisée pour définir le comportement des entités dans un jeu. Ils offrent une approche visuelle et hiérarchique pour décrire les actions que les personnages peuvent effectuer et les conditions dans lesquelles ces actions doivent être déclenchées.
+Unreal Engine supports Extended Reality (XR), encompassing Virtual Reality (VR), Augmented Reality (AR), and other immersive experiences. With Unreal Engine's built-in tools and features, you can create high-quality XR applications and experiences for various platforms, from VR headsets to mobile devices.
 
-## Behavior Tree Tasks (BTT)
+## Getting Started
 
-Les Behavior Tree Tasks sont des actions individuelles ou des tâches qui peuvent être exécutées par les entités contrôlées par l'IA dans un Behaviour Tree. Ils peuvent inclure des actions telles que se déplacer vers une position, attaquer un ennemi, ou effectuer une animation spécifique.
+1. **Install Unreal Engine:**  
+   Download and install Unreal Engine from the [Epic Games website](https://www.unrealengine.com/).
 
-## Blackboard (BB)
+2. **Create a Project:**  
+   Launch the Unreal Engine Editor and create a new project by selecting a predefined template or starting from scratch.
 
-Le Blackboard est une structure de données utilisée pour stocker des informations et des états pertinents pour les entités contrôlées par l'IA. Il permet aux Behavior Trees d'accéder et de mettre à jour ces informations en temps réel, ce qui facilite la prise de décision de l'IA.
+3. **Explore the User Interface:**  
+   Familiarize yourself with the Unreal Engine Editor's user interface, including scene views, tool panels, and menus.
 
-## XR (Réalité Étendue)
+4. **Learn the Basics of Blueprint:**  
+   Explore tutorials and documentation on Blueprint to understand how to create game logic using this visual scripting system.
 
-Unreal Engine prend en charge la réalité étendue (XR), qui englobe la réalité virtuelle (VR), la réalité augmentée (AR) et d'autres formes d'expériences immersives. Avec les outils et les fonctionnalités intégrés d'Unreal Engine, vous pouvez créer des applications et des expériences XR de haute qualité pour une variété de plateformes, des casques VR aux appareils mobiles.
+5. **Experiment with GameMode:**  
+   Modify the default GameMode to understand its impact on gameplay and learn how to create your own custom GameMode.
 
-## Comment Commencer
+6. **Dive into XR:**  
+   If you're interested in VR or AR development, delve into XR-specific documentation to learn how to create immersive experiences.
 
-Installation d'Unreal Engine : Téléchargez et installez Unreal Engine à partir du site officiel d'Epic Games.
-
-Créez un Projet : Lancez l'Unreal Engine Editor et créez un nouveau projet en choisissant un modèle prédéfini ou en démarrant à partir de zéro.
-
-Explorez l'Interface Utilisateur : Familiarisez-vous avec l'interface utilisateur de l'Unreal Engine Editor, y compris les vues de la scène, les panneaux d'outils, et les menus.
-
-Apprenez les Bases de Blueprint : Explorez les tutoriels et la documentation sur Blueprint pour comprendre comment créer des logiques de jeu à l'aide de ce système de scripting visuel.
-
-Expérimentez avec le GameMode : Modifiez le GameMode par défaut pour comprendre son impact sur le gameplay et apprenez à créer votre propre GameMode personnalisé.
-
-Plongez dans XR : Si vous êtes intéressé par le développement VR ou AR, plongez dans la documentation spécifique à XR pour apprendre à créer des expériences immersives.
-
-Ce guide constitue un point de départ pour explorer les fonctionnalités puissantes d'Unreal Engine. Continuez à apprendre, à expérimenter et à créer pour donner vie à vos idées de jeu !
+This guide serves as a starting point to explore Unreal Engine's powerful features. Keep learning, experimenting, and creating to bring your game ideas to life!
 
 # Quotations
 
